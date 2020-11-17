@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="styles/reset.css" rel="stylesheet">
-  <link href="styles/main.css" rel="stylesheet">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
-</head>
-<body>
-
-  <article class="card-container">
-    Victor Crest
-    26
-    London
-  
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
     
-    <footer class="card-footer">
-      <ul class="list-of-stats">
-        <li class="list-of-stats-item"><span class="stats">80K</span><span class="label">Followers</span></li>
-        <li class="list-of-stats-item"><span class="stats">803K</span><span class="label">Likes</span></li>
-        <li class="list-of-stats-item"><span class="stats">1.4K</span><span class="label">Photos</span></li>
-      </ul>
+    <title>Profile card component | @DiAzevedo </title>
+  </head>
+  <body>
+    <main class="content">
+      <article class="card">
+        <div class="card-user-details">
+          <img src="images/image-victor.jpg" class="user-image">
+          <div class="user-details">
+            <p class="user-details-name">Victor Crest<span class="user-details-age">26</span></p>
+            <p class="user-details-location">London</p>
+          </div>
+        </div>
+
+        <footer class="card-footer">
+          <ul class="list-of-stats">
+            <li class="list-of-stats-item">
+              <span class="stats">80K</span><span class="label">Followers</span>
+            </li>
+            <li class="list-of-stats-item">
+              <span class="stats">803K</span><span class="label">Likes</span>
+            </li>
+            <li class="list-of-stats-item">
+              <span class="stats">1.4K</span><span class="label">Photos</span>
+            </li>
+          </ul>
+        </footer>
+      </article>
+    </main>
+    <footer class="attribution">
+     <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/diazevedo/" target="_blank">Diego Azevedo</a>.</p>
     </footer>
-
-  </article>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </body>
 </html>
