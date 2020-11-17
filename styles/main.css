@@ -43,6 +43,8 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-color: var(--bg-card-color);
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-user-details {
